@@ -1,1 +1,0 @@
-# angular_first_project

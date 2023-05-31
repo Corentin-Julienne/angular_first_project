@@ -1,0 +1,73 @@
+// main colors
+$arcade-color : #FFC93B;
+
+// for everything
+.header-div {
+	background-color: $arcade-color;
+	display: flex;
+	justify-content: space-between;
+	align-items: stretch;
+	height: 100px;
+	width: 100%;
+	margin: 0%;
+	padding: 0%;
+}
+
+.logo-div {
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 120px;
+}
+
+.sections-div {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100%;
+	width: 80%;
+}
+
+.profile-div {
+	height: 100%;
+	width: 120px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+// for both images
+#logo {
+	width: 100px;
+}
+
+#profile-picture {
+	height: 80%;
+	border-radius: 50%;
+}
+
+// for black play button
+#play-btn {
+	border: solid black;
+	color: white;
+	background-color: black;
+	text-align: center;
+  	text-decoration: none;
+	padding: 12px 72px;
+	border-radius: 25px;
+	font-size: 24px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+#play-btn:hover {
+	color: black;
+	background-color: white;
+	border: solid;
+}
+
+// for standard links
+ul {
+	font-size: 24px;
+	text-decoration: underline;
+}
