@@ -1,0 +1,9 @@
+<div class="card-main-ctn" [ngClass]="{'ng-modif-test': card.numLikes === 7}">
+	<h2>Card Array as an example</h2>
+	<p>The title is {{ card.title | titlecase}}</p>
+	<p>The date is : {{ card.date }}</p>
+	<img id="card-img" [src]="card.imgUrl" [alt]="card.imgAlt">
+	<p>
+		<button (click)="onPressLike()">{{card.numLikes}} Likes</button>
+	</p>
+</div>
